@@ -1,5 +1,16 @@
-module.exports.reversePlusOne = undefined;
+module.exports.reversePlusOne = function(manyNumbers){
+  manyNumbers.reverse()
+  manyNumbers.unshift(1)
+  return manyNumbers
+  
+};
 
-module.exports.plusesEverywhere = undefined;
+module.exports.plusesEverywhere = function(someNumbers){
+  return someNumbers.join('+')
+};
 
-module.exports.arrayQuantityPlusOne = undefined;
+  
+module.exports.arrayQuantityPlusOne = function(x){
+  return x.length+1
+
+};
